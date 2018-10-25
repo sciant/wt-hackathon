@@ -29,6 +29,8 @@ We implement booking and payment managed by the Hotel smart contract while maint
 
 A compromise between the two can be to send all booking data encrypted to a smart contract, with cancelation data in clear text so that the smart contract can manage payment and cancellation. The data, encrypted with the hotel's public key, are sent via the blockchain to the hotel. The hotel can decide whether to accept the booking or reject it, the smart contract does not validate it. However the traveler can prove if he sent a booking request that conforms to the hotel pricing to an external judge. The hotel pricing remains relatively hidden in the cases of private offers, although it probably can be inferred with statistical analysis.
 
+![booking diagram](./WT%20Booking%20with%20payment%20or%20guarantee.png?raw=true)
+
 ## Lessons learned
 
 A true solution to anonymity on the blockchain involves zero-knowledge proofs. We learned about ZoKrates. An off-chain solution is easier to remain private, however it doesn't allow for trustless decisions based on smart contract policies, and it also removes the opportunities for incentivization of the various parties involved in the WindingTree ecosystem based on reservation fees.
