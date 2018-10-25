@@ -7,7 +7,7 @@ Our project involves modification across several WT repos:
 * https://github.com/windingtree/wt-read-api/
 * https://github.com/windingtree/wt-write-api/
 * https://github.com/windingtree/wt-contracts/
-* ...
+* https://github.com/sciant/wt-hotel-manager/
 
 ## Private offers implementation
 
